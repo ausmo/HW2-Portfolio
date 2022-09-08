@@ -1,14 +1,33 @@
-#aboutMe{
+* {
+  background-color: rgb(255, 255, 255);
+}
+
+#jumbotron {
+  text-align: center;
+}
+
+#aboutMe {
+  text-align: center;
+  display: flex;
+  justify-content: start;
+  margin-left: 300px;
+  margin-top: 150px;
+}
+
+#projects {
 text-align: center;
 display:flex;
-justify-content:center;
-
-}
-* {
-background-color: rgb(255, 255, 255);
-
+justify-content: center;
 }
 
-#jumbotron{
-    text-align: center;
+#skills {
+text-align: center;
+display:flex;
+justify-content:end;
+margin-right: 300px;
+margin-bottom: 150px;
+}
+#linkedIn {
+  max-width: 4%;
+  height: auto;
 }
