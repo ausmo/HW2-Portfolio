@@ -6,28 +6,31 @@
   text-align: center;
 }
 
-#aboutMe {
+section {
+  display: inline-block;
   text-align: center;
-  display: flex;
-  justify-content: start;
-  margin-left: 300px;
-  margin-top: 150px;
 }
-
-#projects {
-text-align: center;
-display:flex;
-justify-content: center;
+#aboutMe {
+  margin-left: 300px;
 }
 
 #skills {
-text-align: center;
-display:flex;
-justify-content:end;
-margin-right: 300px;
-margin-bottom: 150px;
+  margin-right: 300px;
 }
 #linkedIn {
   max-width: 4%;
   height: auto;
+}
+
+#linkedIn {
+  max-width: 4%;
+  height: auto;
+  justify-content: end;
+}
+
+#linkedIn {
+  max-width: 2%;
+  height: auto;
+  position: absolute;
+  bottom: 10px;
 }
